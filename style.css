@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin:0; 
+  padding:0;
+}
+
+#listing tr:nth-child(even){
+  background: #555555;
+  color: #fff;
+}
+
+#listing tr:hover{
+  color: #fff;
+  background: #FF9900;
+}
+
+
+table {
+  font-size: 12px;
+}
+#map_canvas {
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  top: 28px;
+  left: 0;
+  border: 1px solid grey;
+}
+#listing {
+  position: absolute;
+  width: 200px;
+  height: 440px;
+  overflow: auto;
+  left: 442px;
+  top: 28px;
+  cursor: pointer;
+  overflow-x: hidden;
+  border: 1px solid lightgrey;
+}
+#controls {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 346px;
+  text-align: right;
+  padding-top: 2px;
+}
+#keywordField {
+  width: 220px;
+  height: 25px;
+  top: 0;
+  left: 78px;
+  position: absolute;
+}
+#keyword {
+  width: 100%;
+}
+.placeIcon {
+  width: 32px;
+  height: 37px;
+  margin: 4px;
+}
+.hotelIcon {
+  width: 24px;
+  height: 24px;
+}
+#resultsTable {
+  border-collapse: collapse;
+  width: 240px;
+}
+#rating {
+  font-size: 13px;
+  font-family: Arial Unicode MS;
+}
+#keywordsLabel {
+  text-align: right;
+  width: 70px;
+  font-size: 14px;
+  padding: 4px;
+  position: absolute;
+}
+.iw_table_row {
+  height: 18px;
+}
+.iw_attribute_name {
+  font-weight: bold;
+  text-align: right;
+}
+#iconCredit {
+  position: absolute;
+  top: 472px;
+  left: 0;
+  font-size: 11px;
+  text-align: right;
+  width: 640px;
+  font-style: italic;
+}
